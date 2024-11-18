@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakość Powietrza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Jakość Powietrza w Polsce</h1>
+    <div class="container">
+        <select id="stationSelect">
+            <option value="">Wybierz stację...</option>
+        </select>
+        <button onclick="getAirQuality()">Sprawdź jakość powietrza</button>
+        <div class="result" id="airQualityResult"></div>
+        <div class="loading" id="loadingMessage"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
